@@ -4,7 +4,7 @@
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
-    padding-top: 86.4px;
+    padding-top: 100px;
 }
 
 
@@ -399,8 +399,10 @@ h3 {
     max-width: inherit;
     width: inherit;
     height: 670px;
-    padding-top: 85px;
     background-color: #6A7B98;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Main Contact */
@@ -409,7 +411,6 @@ h3 {
     max-width: 1300px;
     width: 90%;
     height: 500px;
-    margin: auto;
     background-color: rgba(237, 240, 245, 0.68);
     padding: 40px;
     display: flex;
