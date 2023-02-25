@@ -7,6 +7,12 @@
     padding-top: 100px;
 }
 
+.fa-bars,
+.fa-less-than {
+    display: none;
+}
+
+
 
 /* Header */
 
