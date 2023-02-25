@@ -48,12 +48,6 @@
         display: none;
     }
 
-    .fa-facebook-messenger,
-    .fa-instagram,
-    .fa-youtube {
-        font-size: 30px;
-    }
-
     /* Section Artwork */
 
     h2 {
@@ -102,6 +96,11 @@
     .main_contact {
         max-width: 720px;
         height: 370px;
+        padding: 10px;
+    }
+
+    .con_type_text {
+        margin-left: 5px;
     }
 
     .con_type {
@@ -111,7 +110,7 @@
     .fa-phone,
     .fa-envelope,
     .fa-location-dot {
-        font-size: 35px;
+        font-size: 32px;
     }
 
     .fa-location-dot {
@@ -123,11 +122,16 @@
     }
 
     .contact_p {
-        font-size: 16px;
+        font-size: 14px;
     }
 
 
     /* Contact Form */
+
+
+    /* label {
+        font-size: 16px;
+    } */
 
     input[type="text"],
     input[type="email"] {
@@ -143,5 +147,15 @@
     input[type="submit"] {
         width: 200px;
         padding: 10px;
+    }
+}
+
+@media(max-width: 580px) {
+    label {
+        font-size: 14.5px;
+    }
+
+    li a {
+        font-size: 16px;
     }
 }
