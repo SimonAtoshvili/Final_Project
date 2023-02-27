@@ -12,7 +12,19 @@
     display: none;
 }
 
-
+header,
+ul,
+footer,
+.icons, 
+.cards,
+.main_contact,
+.contact_types,
+.con_type_text,
+form,
+.name_email {
+    display: flex;
+    justify-content: space-between;
+}
 
 /* Header */
 
@@ -22,8 +34,6 @@ header {
     height: 100px;
     padding: 0 0px 0 100px;
     background-color: #9EAEC5;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
     position: fixed;
     top: 0;
@@ -38,8 +48,6 @@ nav {
 
 ul {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
 }
 
 .header_a {
@@ -257,16 +265,12 @@ footer{
     max-width: inherit;
     padding: 77px 38px 77px 100px;
     background-color: #C0BA8F;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
 
 .icons {
     width: 30%;
-    display: flex;
-    justify-content: space-between;
 }
 
 .fa_brands {
@@ -350,8 +354,6 @@ h3 {
 .cards {
     width: 90%;
     height: 40%;
-    display: flex;
-    justify-content: space-between;
 }
 
 .card {
@@ -423,15 +425,11 @@ h3 {
     height: 500px;
     background-color: rgba(237, 240, 245, 0.68);
     padding: 40px;
-    display: flex;
-    justify-content: space-between;
 }
 
 .contact_types {
     width: 40%;
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .con_type {
@@ -460,9 +458,7 @@ h3 {
 
 .con_type_text {
     margin-left: 40px;
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 h6 {
@@ -481,15 +477,11 @@ h6 {
 
 form {
     width: 60%;
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .name_email{
     width: 100%;
-    display: flex;
-    justify-content: space-between;
 }
 
 .label_input {
