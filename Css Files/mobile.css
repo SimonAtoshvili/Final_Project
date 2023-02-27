@@ -16,7 +16,7 @@
         top: 60px;
         width: 100%;
         height: 80px;
-        left: -1000%;
+        left: -101%;
         background-color: #C0BA8F;
         z-index: 1;
         transition: 1.5s ease;
@@ -32,7 +32,7 @@
     .fa-cart-shopping {
         position: fixed;
         top: 60px;
-        right: -1000%;
+        right: -101%;
         z-index: 2;
         transition: 1.5s ease;
     }
@@ -56,7 +56,7 @@
         display: block;
         position: fixed;
         top: 65px;
-        left: -1000%;
+        left: -101%;
         z-index: 2;
         transition: 1.5s ease;
 
